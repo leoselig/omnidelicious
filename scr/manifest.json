@@ -1,0 +1,16 @@
+{
+	"name": "OmniDelicious",
+	"description" : "To use, type 'omnix' plus a search term into the Omnibox.",
+	"version": "1.1",
+	"background": {
+		"scripts": ["jquery.js", "background.js"]
+	},
+	"omnibox": { "keyword" : "delic" },
+	"manifest_version": 2,
+
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+
+	"permissions": ["storage"]
+}
